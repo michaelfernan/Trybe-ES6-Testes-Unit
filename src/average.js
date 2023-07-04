@@ -25,7 +25,7 @@ const average = (array) => {
     }
 
     sum += value;
-    count+1;
+    count ++;
   }
 
   return Math.round(sum / count);
