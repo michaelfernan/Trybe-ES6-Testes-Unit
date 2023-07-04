@@ -25,10 +25,11 @@ const average = (array) => {
     }
 
     sum += value;
-    count ++;
+    count++;
   }
 
   return Math.round(sum / count);
 };
 
 module.exports = average;
+
