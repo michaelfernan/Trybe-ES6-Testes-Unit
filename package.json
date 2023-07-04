@@ -10,6 +10,7 @@
     "rootDir": "./tests/"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.2",
     "eslint-config-trybe-fundamentals": "^1.1.1",
     "jest": "^29.5.0"
   },
