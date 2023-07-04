@@ -51,7 +51,7 @@ const arrayGenerator = (type, object) => {
   } if (type === 'entries') {
     return Object.entries(object);
   } 
-    throw new Error('Invalid type. Use "keys", "values" or "entries".');
+    throw new Error('Erro type. Use "keys", "values" ou "entries".');
 };
 
 module.exports = { calculator, arrayGenerator };
