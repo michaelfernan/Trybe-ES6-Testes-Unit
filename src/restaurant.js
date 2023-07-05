@@ -2,13 +2,14 @@
 // Siga as orientações do README!
 
 const createMenu = (menu) => {
+  const consumption = [];
     const fetchMenu = () => menu;
   
     const order = (item) => {
       if (!menu.food[item] && !menu.drinks[item]) {
-        return "Item indisponível";
+        return 'Item indisponível';
       }
-      consumption.push(item);
+     consumption.push(item);
     };
   
     const pay = () => {
@@ -22,9 +23,7 @@ const createMenu = (menu) => {
       }
       return total * 1.1;
     };
-  
-    const consumption = [];
-  
+    
     return {
       fetchMenu,
       consumption,
